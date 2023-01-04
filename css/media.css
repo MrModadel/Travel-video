@@ -1,0 +1,130 @@
+@media (max-width: 1200px) {
+  #fou {
+    display: none;
+  }
+  #ent {
+    grid-column: 4/5;
+    grid-row: 2/4;
+  }
+  #six {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .footer-box-down {
+    grid-template-columns: 212px 172px 288px 212px;
+    max-width: 932px;
+  }
+  .container-one {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  .tour-box {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  #tre {
+    display: none;
+  }
+  #ent {
+    display: none;
+  }
+  .promo h1 {
+    font-size: 66px;
+  }
+  .footer-box-down {
+    grid-template-columns: 212px 172px 288px;
+    max-width: 704px;
+  }
+  #tour-style {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .excursion_grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .menu-one {
+    display: block;
+  }
+  .effects {
+    height: 573px;
+  }
+  .video-bg{
+    height: 573px;
+  }
+  .promo {
+    height: 573px;
+}
+  .video-bg video {
+    height: 573px;
+  }
+  #two {
+    display: none;
+  }
+  .promo h1 {
+    font-size: 42px;
+  }
+  .footer-box-down {
+    grid-template-columns: 212px 172px;
+    max-width: 400px;
+  }
+}
+@media (max-width: 685px) {
+  #tour-style {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-box-down-tel {
+    display: grid;
+  }
+  .container-one {
+    padding: 0;
+  }
+  .footer-box-down {
+    display: none;
+  }
+  .tour_head a {
+    display: none;
+  }
+  .p-one {
+    font-size: 13px;
+    margin: 20px 0 10px;
+  }
+  .p-two {
+    font-size: 13px;
+  }
+  .about_box {
+    padding: 45px 45px 45px;
+  }
+  .promo {
+    height: 573px;
+  }
+}
+@media (max-width: 428px) {
+  .promo h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 420px) {
+  #one-tel {
+    grid-column: 1/2;
+  }
+  #tre-tel {
+    display: none;
+  }
+  #ent-tel {
+    display: none;
+  }
+  .footer-box-down-tel {
+    grid-template-columns: 315px;
+    max-width: 315px;
+  }
+}
