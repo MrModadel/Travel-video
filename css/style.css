@@ -89,13 +89,14 @@
 .promo h1 {
   font-weight: 700;
   font-size: 96px;
-  color: white;
+  color: red;
   margin: 129px 0 40px;
+  text-shadow: 1px 1px 2px black;
 }
 button {
   width: 230px;
   height: 50px;
-  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  background: linear-gradient(92.71deg, #dd0404 0%, #c15517 100%);
   border-radius: 60px;
   border: 0;
   cursor: pointer;
@@ -104,7 +105,7 @@ button {
   color: #ffffff;
 }
 button:hover {
-  background: linear-gradient(92.71deg, #25a7e3 0%, #31dbd5 100%);
+  background: linear-gradient(92.71deg, #e32525 0%, #db6a31 100%);
 }
 .tour {
   padding: 90px 0 110px;
